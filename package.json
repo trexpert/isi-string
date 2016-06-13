@@ -1,9 +1,11 @@
 {
   "name": "isi-string",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "string helpers to make the life easier",
   "main": "index.js",
-  "publishConfig":{"registry":"https://registry.npmjs.org"},
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "keywords": [
     "string",
     "utils",
