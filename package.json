@@ -1,15 +1,15 @@
 {
   "name": "isi-string",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "string helpers to make the life easier",
   "main": "index.js",
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
   },
-    "repository"  : {
-		"type" : "git",
-		"url"  : "https://github.com/trexpert/isi-string.git"
-	},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trexpert/isi-string.git"
+  },
   "keywords": [
     "string",
     "utils",
