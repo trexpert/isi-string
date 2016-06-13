@@ -1,0 +1,16 @@
+{
+  "name": "isi-string",
+  "version": "1.0.6",
+  "description": "string helpers to make the life easier",
+  "main": "index.js",
+  "publishConfig":{"registry":"https://registry.npmjs.org"},
+  "keywords": [
+    "string",
+    "utils",
+    "helper"
+  ],
+  "author": {
+    "name": "Benjamin Isberner"
+  },
+  "license": "UNLICENSE"
+}
