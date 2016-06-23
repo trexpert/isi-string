@@ -1,22 +1,80 @@
 {
-  "name": "isi-string",
-  "version": "1.0.8",
-  "description": "string helpers to make the life easier",
-  "main": "index.js",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/trexpert/isi-string.git"
-  },
-  "keywords": [
-    "string",
-    "utils",
-    "helper"
+  "_args": [
+    [
+      "isi-string@1.0.8",
+      "C:\\Sensory-Minds\\Workspace\\decorwalther"
+    ]
   ],
+  "_from": "isi-string@1.0.8",
+  "_id": "isi-string@1.0.8",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/isi-string",
+  "_nodeVersion": "5.3.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/isi-string-1.0.8.tgz_1465810854275_0.16086991759948432"
+  },
+  "_npmUser": {
+    "email": "npm@trexpert-it.com",
+    "name": "trexpert"
+  },
+  "_npmVersion": "3.3.12",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "isi-string",
+    "raw": "isi-string@1.0.8",
+    "rawSpec": "1.0.8",
+    "scope": null,
+    "spec": "1.0.8",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_shasum": "b62936b6b2eed1dac0fdcfd06bdeb0496866b862",
+  "_shrinkwrap": null,
+  "_spec": "isi-string@1.0.8",
+  "_where": "C:\\Sensory-Minds\\Workspace\\decorwalther",
   "author": {
     "name": "Benjamin Isberner"
   },
-  "license": "UNLICENSE"
+  "bugs": {
+    "url": "https://github.com/trexpert/isi-string/issues"
+  },
+  "dependencies": {},
+  "description": "string helpers to make the life easier",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "b62936b6b2eed1dac0fdcfd06bdeb0496866b862",
+    "tarball": "http://npm.sensory-minds.com/isi-string/-/isi-string-1.0.8.tgz"
+  },
+  "gitHead": "6cb472012db28f6fdef91c2976c068c5ad3614ef",
+  "homepage": "https://github.com/trexpert/isi-string#readme",
+  "keywords": [
+    "helper",
+    "string",
+    "utils"
+  ],
+  "license": "UNLICENSE",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "trexpert",
+      "email": "npm@trexpert-it.com"
+    }
+  ],
+  "name": "isi-string",
+  "optionalDependencies": {},
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trexpert/isi-string.git"
+  },
+  "scripts": {},
+  "version": "1.0.8"
 }

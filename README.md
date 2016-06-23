@@ -3,8 +3,11 @@ string helpers for node.js
 
 Methods
 -------
-- [trim, trimChar](#trim)
+- [removeFromRight](#removeFromRight)
+- [removeSpecialChars](#removeSpecialChars)
+- [replaceUmlauts](#replaceUmlauts)
 - [split](#split)
+- [trim, trimChar](#trim)
  
 ### trim()
 alias : trimChar
