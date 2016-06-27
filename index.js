@@ -40,8 +40,14 @@ exports.removeSpecialChars = function (val, replacement) {
 		replacement = '_';
 
 	val = self.replaceUmlauts( val );
-	
-	return val.replace( /[^a-zA-Z0-9]/g, replacement ).replace( new RegExp( replacement + replacement, 'g' ), replacement );
+
+	val = val.replace( /[^a-zA-Z0-9]/g, replacement );
+
+	while (val.indexOf( replacement + replacement ) > 0) {
+		val = val.replace( replacement + replacement, replacement );
+	}
+
+	return val
 };
 
 exports.replaceUmlauts = function (string) {
