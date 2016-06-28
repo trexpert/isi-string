@@ -47,7 +47,7 @@ exports.removeSpecialChars = function (val, replacement) {
 		val = val.replace( replacement + replacement, replacement );
 	}
 
-	return val.trimChar( val, replacement )
+	return self.trimChar( val, replacement )
 };
 
 exports.replaceUmlauts = function (string) {
