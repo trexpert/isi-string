@@ -58,6 +58,6 @@ exports.replaceUmlauts = function (string) {
 	return value;
 };
 
-expors.startsWith = function(string, needle){
+exports.startsWith = function(string, needle){
     return(string.indexOf(needle) == 0);
 };
