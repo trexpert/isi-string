@@ -57,3 +57,7 @@ exports.replaceUmlauts = function (string) {
 	value     = value.replace( /ü/g, 'ue' );
 	return value;
 };
+
+expors.startsWith = function(string, needle){
+    return(string.indexOf(needle) == 0);
+};
