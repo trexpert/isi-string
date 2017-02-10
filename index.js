@@ -62,3 +62,16 @@ exports.replaceUmlauts = function (string) {
 exports.startsWith = function(string, needle){
     return(string.indexOf(needle) == 0);
 };
+
+/**
+ *
+ * @author b.isberner
+ *
+ * @param {String} val
+ * @param {string} [needle='_'] required thing
+ * @returns {String}
+ */
+exports.endsWith = function ( string, needle ) {
+	var needleLength = needle.length;
+	return string.substring(string.length - needleLength, string.length) == needle;
+}
