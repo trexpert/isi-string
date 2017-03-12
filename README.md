@@ -53,6 +53,9 @@ isiString.removeFromRight("Hello World", 3 );
 ```
 
 #### Version History:
+**1.0.17**
+- added urlJoin method
+
 **1.0.6**
 - added function to remove chars from the right: removeFromRight 
 
