@@ -53,6 +53,9 @@ isiString.removeFromRight("Hello World", 3 );
 ```
 
 #### Version History:
+**1.0.19**
+- added capitalizeFirstLetter function
+
 **1.0.17**
 - added urlJoin method
 

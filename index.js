@@ -91,3 +91,7 @@ exports.endsWith = function ( string, needle ) {
 	var needleLength = needle.length;
 	return string.substring( string.length - needleLength, string.length ) == needle;
 }
+
+exports.capitalizeFirstLetter = function ( str ) {
+	return str.charAt( 0 ).toUpperCase() + str.slice( 1 );
+}
