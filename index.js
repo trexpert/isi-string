@@ -51,6 +51,7 @@ exports.split = function ( val, character, fallbackValue ) {
 };
 
 exports.removeSpecialChars = function ( val, replacement ) {
+	var self = this;
 	if ( replacement == undefined ) {
 		replacement = '_';
 	}
