@@ -1,6 +1,6 @@
 {
   "name": "isi-string",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "string helpers to make the life easier",
   "main": "index.js",
   "publishConfig": {
