@@ -51,8 +51,7 @@ exports.split = function ( val, character, fallbackValue ) {
 };
 
 exports.removeSpecialChars = function ( val, replacement ) {
-	var self = this;
-	if ( replacement == undefined ) {
+		if ( replacement == undefined ) {
 		replacement = '_';
 	}
 
@@ -64,7 +63,7 @@ exports.removeSpecialChars = function ( val, replacement ) {
 		val = val.replace( replacement + replacement, replacement );
 	}
 
-	return self.trimChar( val, replacement )
+	return replacement.length > 0 ? self.trimChar( val, replacement ) : val
 };
 
 exports.replaceUmlauts = function ( string ) {
